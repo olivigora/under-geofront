@@ -1,5 +1,22 @@
 #include <iostream>
 
+void PrintIntroduction()
+{
+    std::cout << "       0000             0000        7777777777777777/========_____________________\n";
+    std::cout << "     00000000         00000000      7777^^^^^^^7777/ || ||   _________________\n";
+    std::cout << "    000    000       000    000     777       7777/=========//\n";
+    std::cout << "   000      000     000      000             7777// ((     //\n";
+    std::cout << "  0000      0000   0000      0000           7777//   \   //\n";
+    std::cout << "  0000      0000   0000      0000          7777//========//\n";
+    std::cout << "  0000      0000   0000      0000         7777\n";
+    std::cout << "  0000      0000   0000      0000        7777\n";
+    std::cout << "   000      000     000      000        7777\n";
+    std::cout << "    000    000       000    000       77777\n";
+    std::cout << "     00000000         00000000       7777777\n";
+    std::cout << "       0000             0000        777777777\n";
+}
+
+
 void PlayGame()
 {
     //Print welcome messages to the terminal
@@ -40,7 +57,12 @@ void PlayGame()
 
 int main()
 {
+    PrintIntroduction();
     PlayGame();
     return 0;
 }
+
+
+
+
 
